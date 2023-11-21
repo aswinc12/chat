@@ -1,0 +1,50 @@
+/* .auth {
+    text-align: center;
+}
+
+/* .auth button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #3b5998;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}  */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #97a7c7 ;
+}
+
+.auth {
+    background-color: #062766;
+    width: 300px;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content horizontally */
+}
+
+.auth p {
+    color: #f8f4f4;
+    font-size: 35px;
+    padding: 15px;
+    margin: 0;
+}
+
+.auth button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #044be4;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}

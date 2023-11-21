@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+/* .auth{
+    background-color: blue;
+    width: 400px;
+    padding: 80px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.auth {
+    background-color: #ffcc00;
+    width: 300px;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content horizontally */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.auth p {
+    color: #333;
+    font-size: 16px;
+    margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* .a{
+    background-color: #008cff;
+    width: 300px;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+} */
+
+/* .b label{
+    text-align: center;
+    font-size: 55 px;
+    color: #ffcc00;
+    gap: 10px;
+
+} */
+.b label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: #ffcc00;
+    gap: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow for depth */
+    font-family: 'Helvetica', sans-serif; /* Change the font family to your preference */
 }
 
-.App-link {
-  color: #61dafb;
+/* You can add additional styling for the label text if needed */
+.b label span {
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Convert text to uppercase */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.a {
+    background-color: #008cff;
+    width: 300px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #030000; /* Text color */
+}
+
+/* Style for headings inside the .a div */
+.a h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for paragraphs inside the .a div */
+.a p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for a button inside the .a div */
+.a button {
+    background-color: #fff;
+    color: #008cff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.a button:hover {
+    background-color: #005a9e;
+    color: #140404;
+}
+.c1{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
 }
